@@ -2,7 +2,7 @@
 
 try{
 $db = new PDO(
-'mysql:host=localhost;dbname=blandc','blandc','mack 23 Fitz');
+'mysql:host=localhost;dbname=blandc','blandc','hunter2');
 
 $db->setAttribute(PDO::ATTR_ERRMODE,
     PDO::ERRMODE_EXCEPTION);
